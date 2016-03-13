@@ -8,20 +8,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class="container">
 
-		<section class="navbar">
-			<%= render 'layouts/navbar' %>
-		</section><!-- end .navbar -->
+	<section class="navbar">
+		<%= render 'layouts/navbar' %>
+	</section><!-- end .navbar -->
 
 
-		<h1>Stage Management Kits</h1>
+	<h1>Stage Management Kits</h1>
 
-		<h2 class="tagline">We get your gear.  You stage manage.</h2>
-			
-		<%= yield %>
-
-	</div><!-- end .container -->
+	<h2 class="tagline">We get your gear.  You stage manage.</h2>
+		
+	<%= yield %>
 
 	<hr>
 	<footer class="align_center">
