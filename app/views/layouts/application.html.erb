@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Smkiteasy</title>
+  <title>Stage Management Kits</title>
+  <meta role="description">Prepackaged stage management kits, including everything from pencils to "lend" actors to spike tape and a multitool.  We package it. You stage manage.</meta>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="container">
 
-	<section class="navbar">
-		<%= render 'layouts/navbar' %>
-	</section><!-- end .navbar -->
+		<section class="navbar">
+			<%= render 'layouts/navbar' %>
+		</section><!-- end .navbar -->
 
-	<section class="main_images">
-		<%= render 'layouts/main_images' %>
-	</section><!-- end .main_images -->
-		
-	<%= yield %>
+		<section class="main_images">
+			<%= render 'layouts/main_images' %>
+		</section><!-- end .main_images -->
+			
+		<%= yield %>
+	</div><!-- end .container -->
 
-
+	<hr>
 	<footer class="align_center">
-		<p>Stage Management Kits are created by <%= link_to 'Virgo Ventures', href: "#", target: "_none" %>.</p>
-		<p>Our CEO is a Stage Manager turned Entrepreneur.</p>
+		<p>Stage Management Kits are created by <%= link_to 'Virgo Ventures', href: "#", target: "_none" %>. whose owner is a Stage Manager turned Entrepreneur.</p>
 	</footer>
 
 </body>
