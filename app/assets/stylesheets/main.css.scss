@@ -10,11 +10,19 @@ team@virgoventures.org*/
 
 
 .action_button {
-
+	margin: 20px;
 }
 
 .align_center {
 	text-align: center;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+.category_name {
+	font-weight: bold;
 }
 
 .description {
@@ -22,7 +30,7 @@ team@virgoventures.org*/
 }
 
 .main_images {
-	
+	margin: 10px 0 10px 0;
 }
 
 .navbar {
@@ -30,7 +38,7 @@ team@virgoventures.org*/
 }
 
 .product_contents {
-	
+
 }
 
 .tagline {
