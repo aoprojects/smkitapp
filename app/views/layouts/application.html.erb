@@ -8,7 +8,21 @@
 </head>
 <body>
 
-<%= yield %>
+	<section class="navbar">
+		<%= render 'layouts/navbar' %>
+	</section><!-- end .navbar -->
+
+	<section class="main_images">
+		<%= render 'layouts/main_images' %>
+	</section><!-- end .main_images -->
+		
+	<%= yield %>
+
+
+	<footer class="align_center">
+		<p>Stage Management Kits are created by <%= link_to 'Virgo Ventures', href: "#", target: "_none" %>.</p>
+		<p>Our CEO is a Stage Manager turned Entrepreneur.</p>
+	</footer>
 
 </body>
 </html>
