@@ -95,14 +95,19 @@ h4 {
 	background: #eee;
 }
 
-.navbar .social_media {
-	list-style: none;
-	display: block;
-}
-
 .navbar ul {
 	display: inline;
 	text-align: right;
+	float: right;
+	list-style: none;
+	display: block;
+	position: relative;
+	top: 0.9em;
+}
+
+.navbar ul li {
+	float: left;
+	padding: 6px;
 }
 
 .navbar ul :hover {
