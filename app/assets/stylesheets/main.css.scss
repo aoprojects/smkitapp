@@ -32,7 +32,6 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 	font-family: 'Poiret One', times;
-	
 }
 
 .category_name {
@@ -53,16 +52,19 @@ footer ul li {
 }
 
 h1 {
-	font-family: 'Marck Script', cursive;
-	font-size: 4em;
-	white-space: nowrap;
-	text-align: left;
+	font-family: 'Euphoria Script', cursive;
+	font-size: 4.5em;
+	text-align: center;
 	text-indent: -0.2em;
 }
 
 h2 {
-	text-indent: 1em;
 	margin-top: 0em;
+	text-align: center;
+}
+
+.headers {
+	margin-top: -3em;
 }
 
 .main_images {
