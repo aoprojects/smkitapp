@@ -17,6 +17,13 @@ team@virgoventures.org*/
 	text-align: center;
 }
 
+body {
+	/*font-family: 'Raleway Dots', cursive;*/
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	font-size: 1.8em;
+}
+
 .border {
 	border: 2px solid black;
 }
@@ -26,7 +33,7 @@ team@virgoventures.org*/
 }
 
 .description {
-
+	
 }
 
 footer ul {
@@ -36,6 +43,19 @@ footer ul {
 footer ul li {
 	display: inline;
 	padding: 5px;
+}
+
+h1 {
+	font-family: 'Marck Script', cursive;
+	font-size: 4em;
+	white-space: nowrap;
+	text-align: left;
+	text-indent: -0.2em;
+}
+
+h2 {
+	text-indent: 1em;
+	margin-top: 0em;
 }
 
 .main_images {
