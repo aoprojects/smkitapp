@@ -80,8 +80,9 @@ h2 {
 	margin: 10px 0 10px 0;
 }
 
-.navbar {
-
+.navbar ul {
+	display: inline;
+	text-align: right;
 }
 
 .product_contents {
