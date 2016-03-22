@@ -4,6 +4,8 @@ team@virgoventures.org*/
 /*insert bootstrap sass adjustmenets below*/
 
 
+$navbar-default-link-hover-bg: none;
+
 @import "bootstrap";
 
 /*Below are main css edits*/
@@ -27,7 +29,6 @@ a:hover {
 }
 
 body {
-	/*font-family: 'Raleway Dots', cursive;*/
 	font-family: 'Poiret One', cursive;
 	font-weight: bolder;
 	font-size: 1.8em;
@@ -49,6 +50,11 @@ body {
 
 .description {
 	
+}
+
+footer {
+	background: #eee;
+	padding: 20px 10px 10px 10px;
 }
 
 footer ul {
@@ -80,9 +86,22 @@ h2 {
 	margin: 10px 0 10px 0;
 }
 
+.navbar {
+	background: #eee;
+}
+
+.navbar .social_media {
+	list-style: none;
+	display: block;
+}
+
 .navbar ul {
 	display: inline;
 	text-align: right;
+}
+
+.navbar ul :hover {
+	background: none;
 }
 
 .product_contents {
