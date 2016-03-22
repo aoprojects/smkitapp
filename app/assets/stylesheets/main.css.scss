@@ -8,6 +8,15 @@ team@virgoventures.org*/
 
 /*Below are main css edits*/
 
+a {
+	color: rgb(155,59,56);
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: red;
+}
 
 .action_button {
 	margin: 20px;
@@ -78,6 +87,10 @@ h2 {
 .product_contents {
 	background: #eee;
 	padding: 25px;
+}
+
+.red {
+	color: rgb(155,59,56);
 }
 
 .social_media img {
