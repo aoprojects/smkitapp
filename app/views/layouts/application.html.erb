@@ -8,31 +8,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	
+	<%= render 'layouts/navbar' %>	
 
-	<section class="navbar">
-		<%= render 'layouts/navbar' %>
-	</section><!-- end .navbar -->
+	<section class="main">
+		<%= render 'layouts/headers' %>
+				
+			<%= yield %>
 
-
-	<h1>Stage Management Kits</h1>
-
-	<h2 class="tagline">We get your gear.  You stage manage.</h2>
-		
-	<%= yield %>
+	</section><!-- end .main section -->
 
 	<hr>
-	<footer class="align_center">
-		<p>Stage Management Kits are created by <%= link_to 'Virgo Ventures', href: "#", target: "_none" %>. whose owner is a Stage Manager turned Entrepreneur.</p>
-		<section class="social_media">
-			PI
-			IG
-			TW
-			FB like
-			Mailing List
-		</section>
-		<p>Contact us by emailing kits@StageManagerSupplies.com</p>
-		
-	</footer>
+	
+	<%= render 'layouts/footer' %>
 
 </body>
 </html>
