@@ -5,4 +5,7 @@ class PagesController < ApplicationController
   def order_page
   end
 
+  def confirmation
+  end
+
 end

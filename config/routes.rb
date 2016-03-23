@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   root "pages#home"
   get "order_page" => "pages#order_page"
+  get "confirmation" => "pages#confirmation"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
