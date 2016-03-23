@@ -11,4 +11,7 @@ class PagesController < ApplicationController
   def faq
   end
 
+  def privacy_and_terms
+  end
+
 end

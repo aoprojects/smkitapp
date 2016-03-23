@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "order_page" => "pages#order_page"
   get "confirmation" => "pages#confirmation"
   get "faq" => "pages#faq"
+  get "privacy_and_terms" => "pages#privacy_and_terms"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
