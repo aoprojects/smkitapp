@@ -97,7 +97,11 @@ h4 {
 }
 
 .image {
-	margin: 5px;
+	overflow: hidden;
+	max-height: 200px;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
 }
 
 .main_images {
