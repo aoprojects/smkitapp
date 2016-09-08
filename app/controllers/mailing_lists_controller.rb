@@ -6,8 +6,15 @@ class MailingListsController < ApplicationController
 	end
 
 	def create
-		@recipient.save(recipient_params)
-		redirect_to root_path
+		@recipient = recipient.build(recipient_params)
+
+	    respond_to do |format|
+	      if @recipient.save
+	        format.html { redirect_to root_path, notice: 'You have successfully been subscribed.' }
+	      else
+	        format.html { render :new }
+	      end
+	    end
 	end
 
 	private 
