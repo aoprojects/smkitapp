@@ -1,0 +1,23 @@
+<main id="mailing-list" class="container text-center">
+	<h3>Join our mailing list </h3>
+	<br>
+
+	<%= form_for(@recipient) do |r| %>
+		<div>
+			<%= r.label :Your_Full_Name %>
+			<%= r.text_field :recipient_name, placeholder: 'Ms. Great Human', class: "form-control" %>
+		</div>
+		<br>
+		<div>
+			<%= r.label :Your_Email_Address %>
+			<%= r.text_field :recipient_email, placeholder: 'Me@MyGreatness.com', class: "form-control" %>
+		</div>
+		<br>
+		<div>
+			<%= r.submit("Join Mailing List", class: 'btn btn-md btn-danger') %>
+		</div>
+
+	<% end %>
+	<br><br>
+
+</main>

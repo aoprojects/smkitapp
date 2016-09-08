@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-
+  resources :mailing_lists, only: [:new, :create, :destroy]
   root "pages#home"
   get "order_page" => "pages#order_page"
   get "confirmation" => "pages#confirmation"
