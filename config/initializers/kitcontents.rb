@@ -1,5 +1,4 @@
-FOR_SM = [
-"bobby pins",
+FOR_CAST = ["bobby pins",
 "breath strip pack",
 "clear nail polish",
 "clipboard",
@@ -38,8 +37,7 @@ FOR_SM = [
 "Tylenol cold pills"
 ]
 
-FOR_CREW = [
-"A clip",
+FOR_CREW = ["A clip",
 "aux cable",
 "bit set with screwdriver",
 "black gaff tape roll",
@@ -73,8 +71,7 @@ FOR_CREW = [
 "zip ties"
 ]
 
-FOR_CREW = [
-"1-hole puncher",
+FOR_SM = ["1-hole puncher",
 "AA batteries",
 "AAA batteries",
 "academic planner, undated",
@@ -118,7 +115,7 @@ FOR_CREW = [
 "techgear Mega Filled Binder",
 "Thank You cards",
 "USB to wall charger input (American)",
-"voyager tool bag - 15"",
+"voyager tool bag - 15",
 "water bottle - (bodium or Kleen canteen?)",
 "white binder 1.5 in",
 "white printer paper",

@@ -3,44 +3,29 @@
 
 		<h4>So what's in it?</h4>
 		<br>
+		<p>120 + items, including:</p>
 		<div class="row align_center">
-			<p>120 + items, including:</p>
-			<div class="col-sm-4">
+			<div class="col-sm-4 col-xs-12">
 				<p class="category_name">For you</p>
 				<ul>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
+					<% FOR_SM.each do |item| %>
+						<li><%= item %></li>
+					<% end %>
 				</ul>
-			</div>				
-				<p class="category_name">Fo the cast</p>
+			</div class="col-sm-4 col-xs-12">				
+				<p class="category_name">For the cast</p>
 				<ul>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
+					<% FOR_CAST.each do |item| %>
+						<li><%= item %></li>
+					<% end %>
 				</ul>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 col-xs-12">
 				<p class="category_name">For the crew</p>
 				<ul>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
-					</li>item</li>
+					<% FOR_CREW.each do |item| %>
+						<li><%= item %></li>
+					<% end %>
 				</ul>
 			</div>
 		</div><!-- end .row -->
