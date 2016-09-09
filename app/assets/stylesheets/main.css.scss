@@ -55,10 +55,6 @@ body {
 	font-size: 1.2em;
 }
 
-.category_name li {
-// todo begin styling lists
-}
-
 .description {
 	
 }
@@ -170,6 +166,10 @@ h4 {
 .product_contents {
 	background: #eee;
 	padding: 25px;
+}
+
+.product_contents li {
+	text-align: left;
 }
 
 .red {
