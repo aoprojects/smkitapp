@@ -114,6 +114,11 @@ h4 {
 	padding: 0px;
 }
 
+.bigger {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
 #mailing-list .form-control {
 	max-width: 700px;
 	text-align: center;
@@ -170,6 +175,14 @@ h4 {
 .product_contents {
 	background: #eee;
 	padding: 25px;
+}
+
+.product_contents .group1 {
+	line-height: 24px;
+}
+
+.product_contents .group2 {
+	line-height: 27.5px;
 }
 
 .product_contents li {

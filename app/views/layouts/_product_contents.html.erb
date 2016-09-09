@@ -3,12 +3,12 @@
 
 		<h4>So what's in it?</h4>
 		<br>
-		<p class="text-center">120 + items, including:</p>
+		<p class="text-center bigger">120 + items, including:</p>
 		<br>
 		<div class="row align_center">
 			<div class="col-sm-4 col-xs-12">				
 				<p class="category_name">For the cast</p>
-				<ul>
+				<ul class="group1">
 					<% FOR_CAST.each do |item| %>
 						<li><%= item %></li>
 					<% end %>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-sm-4 col-xs-12">
 				<p class="category_name">For the crew</p>
-				<ul>
+				<ul class="group2">
 					<% FOR_CREW.each do |item| %>
 						<li><%= item %></li>
 					<% end %>
@@ -24,7 +24,7 @@
 			</div>
 			<div class="col-sm-4 col-xs-12">
 				<p class="category_name">For you</p>
-				<ul>
+				<ul class="group3">
 					<% FOR_SM.each do |item| %>
 						<li><%= item %></li>
 					<% end %>
