@@ -7,7 +7,7 @@
 		<br>
 		<div class="row align_center">
 			<div class="col-sm-4 col-xs-12">				
-				<p class="category_name">For the cast</p>
+				<p class="category_name">For the cast <%= render 'layouts/arrows' %></p>
 				<ul class="group1">
 					<% FOR_CAST.each do |item| %>
 						<li><%= item %></li>
@@ -15,7 +15,7 @@
 				</ul>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<p class="category_name">For the crew</p>
+				<p class="category_name">For the crew <%= render 'layouts/arrows' %></p>
 				<ul class="group2">
 					<% FOR_CREW.each do |item| %>
 						<li><%= item %></li>
@@ -23,7 +23,7 @@
 				</ul>
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<p class="category_name">For you</p>
+				<p class="category_name">For you <%= render 'layouts/arrows' %></p>
 				<ul class="group3">
 					<% FOR_SM.each do |item| %>
 						<li><%= item %></li>

@@ -218,6 +218,19 @@ h4 {
 	background: white;
 }
 
+// the following is for on small screens, the arrows drop down category lists
 
+@media only screen and (max-width: 767px) {
+	.group1, .group2, .group3 {
+		display: none;
+	}
+	.category_name {
+		cursor: pointer;
+	}
+}
+
+.up-arrow {
+	display: none;
+}
 
 
