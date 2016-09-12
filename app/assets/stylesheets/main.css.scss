@@ -177,12 +177,14 @@ h4 {
 	padding: 25px;
 }
 
-.product_contents .group1 {
-	line-height: 24px;
-}
+@media only screen and (min-width: 768px) {
+	.product_contents .group1 {
+		line-height: 24px;
+	}
 
-.product_contents .group2 {
-	line-height: 27.5px;
+	.product_contents .group2 {
+		line-height: 27.5px;
+	}
 }
 
 .product_contents li {
